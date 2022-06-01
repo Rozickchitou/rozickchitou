@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	      <meta charset="utf-8">
+	      <title>formulaire d'inscription</title>
+          <link rel="stylesheet" type="text/css" href="styleformulaire.css">
+    </head>
+    <body>
+        
+        <div id="block_page">
+        	<form method="post" action="traitement.php">
+                <div id="type">
+                    <fieldset> 
+                        <legend>Information</legend>
+                        <fieldset>
+                            <legend>Etats civil</legend>
+                    		<p id="nom">
+                    			<label for="nom">NOM :</label> 
+                    			<input type="texte" name="nom" id="nom" size="20" placeholder="Ex CHITOU" autofocus required>
+                            </p>
+                    		<p id="prenom">
+                    				<label for="prenom">PRENOM :</label>
+                    				<input type="texte" name="prenom" id="prenom" placeholder="Ex George" required>
+                    		</p>
+                        </fieldset> 
+
+                        <fieldset> 
+                            <legend>X</legend>
+                    		<p id="date"><label for="date"> Date de Naissance :</label>
+                    			<input type="date" name="date" id="date" required></p>
+                            <p >
+                                <label for="email"> Email :</label>
+                                <input type="email" name="email" id="email" required>
+                            </p>    
+                            <p><label for="new pass"> Nouveau mot de passe :</label>
+                                <input type="password" name="new pass" id=" new pass" placeholder="sida@2092taraka12" size="20" required></p>
+                            <p><label for="pass"> Confirmation mot de passe :</label>
+                                <input type="password" name="pass" id="pass"size="20"required></p>
+                        </fieldset>      
+                		
+                        <p>
+                            SEXE:<br>
+                            <input type="radio" name="sexe" id="h" value="Homme">
+                            <label for="h">Homme</label>
+                            <br>
+                            <input type="radio" name="sexe" value="Femme" id="f">
+                            <label for="f">Femme</label>
+                        </p>
+                		<p id="nationalité">
+                			<label for="nationalité"> Pays d'origine :</label>
+                			<select name="nationalité" id="nationalité">
+                				<option value="france">France</option>
+                                <option value="japon">Benin</option>
+                                <option value="espagne">Espagne</option>
+                                <option value="italie">Italie</option>
+                                <option value="royaume-uni">Royaume-Uni</option>
+                                <option value="canada">Canada</option>
+                                <option value="etats-unis">États-Unis</option> 
+                                <option value="chine">Chine</option>
+                				<option value="japon">Afrique du sud</option>
+                                <option value="japon">Mali</option>
+                                <option value="japon">Senegal</option>
+                                <option value="japon">Ethiopie</option>
+                                <option value="japon">Gabon</option>
+                                <option value="japon">Algerie</option>
+                                <option value="japon">Australie</option>
+                                <option value="japon">Egypte</option>
+                                <option value="japon">Canada</option>
+                                <option value="japon">Lyban</option>
+                                <option value="japon">Rwanda</option>
+                                <option value="japon">Congo</option>
+                                <option value="japon">Togo</option>
+                			</select>
+                		</p>
+                        <p>
+                            Passe-temps préférés:<br>
+                            <input type="checkbox" name="musique" id="m">
+                            <label for="m">Musique</label><br>
+                            <input type="checkbox" name="football" id="foot">
+                            <label for="foot">Footbal</label><br>
+                            <input type="checkbox" name="basket" id="Basket">
+                            <label for="basket">Basket</label><br>
+                            <input type="checkbox" name="Programmation" id="pro">
+                            <label for="pro">Programmation</label>
+                        </p>
+                        <input type="submit" value="Quitter">
+            			<input type="submit" value="Envoyer">
+                        <input type="submit" value="Effacer">
+                    </fieldset>    
+                </div>    
+        	</form>
+        </div>
+    </body>
+</html>

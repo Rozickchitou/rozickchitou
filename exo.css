@@ -1,0 +1,40 @@
+#img
+{
+	float: left;
+}
+#img1
+{
+	float: right;
+}
+h2
+{
+	text-align: center;
+	vertical-align: top;
+	text-decoration: underline;
+}
+h1
+{
+	text-align: center;
+   vertical-align: top;
+   font-size: 3em; 
+   border: black solid 5px;
+   border-radius: 10px;
+
+}
+img
+{
+	width: 120px;
+}
+ul 
+{
+	text-align: center;
+	list-style: none;
+}
+body
+{
+	background: url(fond_jaune.png);
+}
+#ap
+{
+	border-radius: 10px;
+}
